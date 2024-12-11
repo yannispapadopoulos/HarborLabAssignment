@@ -28,9 +28,9 @@ eg:	PATCH /api/bookings/1
 	Content-Type: application/json
 
 *I considered Cancel Booking as a soft delete.
-So, this REST API basically updates the record with the active status field as false.
+*So, this REST API basically updates the record with the active status field as false.
 
-However, i included the following hard delete API too, just in case it is was needed as mandatory.
+*However, i included the following hard delete API too, just in case it is was needed as mandatory.
 
 4)DELETE /api/bookings/{id}/delete
 eg:	DELETE /api/bookings/1
